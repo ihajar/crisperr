@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: #fafafa;
+  height: 100vh;
+  width: 100%;
+}
+
+.app__header {
+  background-color: white;
+  padding: 10px 10px 20px 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.app__headerLogo {
+  object-fit: contain;
+}
+
+.app__headerLogo > h2 {
+  font-family: 'Oleo Script', cursive;
+  font-weight: lighter;
+}
+
+
+@media screen and (min-width: 860px) {
+
+  .app {
+    /* margin: 0rem 5rem; */
+  }
+  .app__header {
+    /* padding: 10px 0px 30px 30px; */
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+}
